@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable no-undef */
+import React from "react";
+import "./App.css";
+import CustomTextInput from "./components/CustomTextInput/CustomTextInput";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  state = {
+    value: "",
+  };
+
+  render() {
+    return (
+      <div className="App">
+        <CustomTextInput
+          padding={5}
+          inputName="second INput"
+          type="text"
+          resetStyles={true}
+          onChange={(event) => {
+            console.log(12);
+            this.setState({ value: event.target.value });
+          }}
+          placeholder="TEST"
+          value={this.state.value}
+        />
+      </div>
+    );
+  }
 }
 
 export default App;
