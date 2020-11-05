@@ -6,10 +6,12 @@ class CustomTextInput extends React.Component {
   render() {
     return (
       <div
+        className={s.container}
         style={{
           padding: `${this.props.padding}rem`,
         }}
       >
+        <h1>Custom text input</h1>
         <span>{this.props.inputName}</span>
         <br />
         <input
