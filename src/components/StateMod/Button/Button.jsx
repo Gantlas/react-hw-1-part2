@@ -18,4 +18,3 @@ Button.propTypes = {
 };
 
 export default Button;
-//double-sided binding
