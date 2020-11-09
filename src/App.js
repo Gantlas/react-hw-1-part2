@@ -4,6 +4,7 @@ import "./App.css";
 import CustomTextInput from "./components/CustomTextInput/CustomTextInput";
 import DoubleSidedBinding from "./components/DoubleSidedBinding/DoubleSidedBinding";
 import Names from "./components/Names/Names.jsx";
+import PropFunctions from "./components/PropFunctions/PropFunctions";
 import StateMod from "./components/StateMod/StateMod";
 
 class App extends React.Component {
@@ -29,6 +30,7 @@ class App extends React.Component {
         <StateMod />
         <DoubleSidedBinding value="123" />
         <Names />
+        <PropFunctions />
       </div>
     );
   }
