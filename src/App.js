@@ -3,6 +3,7 @@ import React from "react";
 import "./App.css";
 import CustomTextInput from "./components/CustomTextInput/CustomTextInput";
 import DoubleSidedBinding from "./components/DoubleSidedBinding/DoubleSidedBinding";
+import Loader from "./components/Loader/Loader";
 import Names from "./components/Names/Names.jsx";
 import PropFunctions from "./components/PropFunctions/PropFunctions";
 import StateMod from "./components/StateMod/StateMod";
@@ -31,6 +32,7 @@ class App extends React.Component {
         <DoubleSidedBinding value="123" />
         <Names />
         <PropFunctions />
+        <Loader />
       </div>
     );
   }
