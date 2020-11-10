@@ -1,0 +1,10 @@
+.container {
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+
+.reset {
+  background-color: transparent;
+  outline: none;
+  border: 2px solid red;
+}

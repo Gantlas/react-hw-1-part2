@@ -1,0 +1,8 @@
+.container {
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+
+.container ul {
+  list-style-type: none;
+}
