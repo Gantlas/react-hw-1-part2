@@ -16,7 +16,7 @@ class CustomTextInput extends React.Component {
         <br />
         <input
           type={this.props.type}
-          className={this.props.resetStyles ? s.reset : ""}
+          className={this.props.resetStyles && s.reset}
           value={this.props.value}
           placeholder={this.props.placeholder}
           onChange={this.props.onChange}

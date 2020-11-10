@@ -8,9 +8,7 @@ class DoubleSidedBinding extends React.Component {
   };
 
   change = (event) => {
-    const text = event.target.value;
-    const addedSymbol = text[text.length - 1];
-    this.setState({ value: this.state.value + " " + addedSymbol });
+    this.setState({ value: event.target.value });
   };
 
   render() {

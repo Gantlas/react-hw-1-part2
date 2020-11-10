@@ -22,8 +22,8 @@ class Loader extends Component {
       <div className={s.container}>
         <h1>LOADER</h1>
         <button onClick={this.load}>Greeting</button>
-        {this.state.loading ? <div className={s.loader}></div> : ""}
-        {this.state.greeting ? <div>{this.state.greeting}</div> : ""}
+        {this.state.loading && <div className={s.loader}></div>}
+        {this.state.greeting && <div>{this.state.greeting}</div>}
       </div>
     );
   }

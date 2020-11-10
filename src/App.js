@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 import React from "react";
 import "./App.css";
+import Animation from "./components/Animation/Animation";
 import CustomTextInput from "./components/CustomTextInput/CustomTextInput";
 import DoubleSidedBinding from "./components/DoubleSidedBinding/DoubleSidedBinding";
 import Loader from "./components/Loader/Loader";
@@ -33,6 +34,7 @@ class App extends React.Component {
         <Names />
         <PropFunctions />
         <Loader />
+        <Animation />
       </div>
     );
   }
