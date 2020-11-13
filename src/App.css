@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.navigator {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 10px auto 0;
+}
+
+.nav-item {
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid gray;
+  border-radius: 4px;
+  background-color: rgb(245, 245, 245);
+  width: calc(100% / 7);
+  text-align: center;
+}
+
+.nav-item:visited {
+  color: black;
+}
+
+.switch {
+  margin: 0 auto;
+  text-align: center;
+}
